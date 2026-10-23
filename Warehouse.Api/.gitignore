@@ -1,0 +1,22 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Flutter and Dart generated files
+**/.dart_tool/
+**/build/
+
+# IDE and operating system files
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local database and application credentials
+appsettings.Local.json
+appsettings.Development.json
