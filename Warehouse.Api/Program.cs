@@ -1,11 +1,12 @@
+using Warehouse.Api.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddSingleton<Database>();
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("FlutterDev", policy =>
-    {
+builder.Services.AddCors(options => {
+    options.AddPolicy("FlutterDev", policy => {
         policy
             .WithOrigins("http://localhost:5164")
             .AllowAnyHeader()

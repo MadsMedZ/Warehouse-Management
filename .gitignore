@@ -20,3 +20,4 @@ Thumbs.db
 # Local database and application credentials
 appsettings.Local.json
 appsettings.Development.json
+**/appsettings.json

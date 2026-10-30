@@ -1,0 +1,36 @@
+Products:
+    - Id
+    - Name
+    - Location
+
+Location:
+    - Zone
+    - Shelf
+    - Spot
+    - Quantity
+    - Buffer ? Yes or no
+    Example :
+        Zone-Shelf-Spot = 123-01-02
+        Max Quantity on location is 5 products
+
+-----------------------------------------------------------------
+
+Features in the app:
+    - Placing new products:
+        - Current product Name
+        - Quantity to place
+            - Confirm Quantity
+        - Suggested location
+            - Quantity on location
+            - Change to new location
+        - Location of next line
+    - Skip the current line
+    - See all current job lines
+    - See empty locaitons
+    - Move product from one location to another
+    - See products on location (Lokations Info)
+    - See all locations that have a product (Vareopslag)
+
+    
+
+    
